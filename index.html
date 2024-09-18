@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Teste de Digitação</title>
+</head>
+<body>
+
+    <main>
+        <aside class="menu">
+            <h2>Escolha seu Nível</h2>
+            <ul>
+                <li><a href="#" onclick="mudarNivel(1)">Nível - 1</a></li>
+                <li><a href="#" onclick="mudarNivel(2)">Nível - 2</a></li>
+                <li><a href="#" onclick="mudarNivel(3)">Nível - 3</a></li>
+                <li><a href="#" onclick="mudarNivel(4)">Nível - 4</a></li>
+                <li><a href="#" onclick="mudarNivel(5)">Nível - 5</a></li>
+            </ul>
+        </aside>
+
+        <section class="container">
+            <h1>Teste sua Digitação</h1>
+
+            <div id="texto">Escolha um nível para começar...</div>
+
+            <input type="text" class="entradaTexto" disabled>
+            
+            <p class="estatisticas">Letras Corretas: <span class="corretas">0</span> | Letras Erradas: <span class="erradas">0</span></p>
+            <p class="tempo">Tempo Restante: <span class="cronometro">60</span>s</p>
+
+        </section>
+    </main>
+    
+</body>
+</html>
